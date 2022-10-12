@@ -1,0 +1,44 @@
+/* #WholeDocument {
+background-color: aqua;
+} */
+html,
+body {
+    margin:0px;
+    height: 100%;
+    /* this gets rod of the padding so now its more of an art thing */
+}
+
+
+
+
+.strips {
+    left: -10%;
+    /* cuz thats where it stats*/
+    height: 16.6666666667%;
+    /* This number times 6 = 100 so it take 100% 
+    percent of your screen no more no less  */
+  }
+#flag 
+{
+    height: 100%;
+    /* takes up ypur whole screen so 
+    now all the other divs just need to compy  */
+    background-color: black; 
+}
+#redStrip {
+    background-color:red;
+}
+#orangeStrip {
+    background-color: orange;}
+#yellowStrip {
+background-color: yellow;
+}
+#greenStrip{
+    background-color: green;
+}
+#blueStrip {
+    background-color: blue;
+}
+#purpleStrip {
+    background-color: purple;
+}
